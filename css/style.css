@@ -19,10 +19,9 @@ body {
 
 .container {
   max-width: 1220px;
-  padding: 0 10px;
   margin: 0 auto;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
-  border-radius: 0px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 }
 
 .header {
@@ -65,7 +64,6 @@ body {
 
 .header__image {
   width: 300px;
-  height: 300px;
   border-radius: 50%;
   margin: 0 auto;
 }
@@ -88,4 +86,29 @@ body {
 .body__education-text,
 .body__language-link {
   font-style: italic;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  list-style: none;
+}
+
+.footer__link {
+  width: 120px;
+}
+
+.footer__image {
+  width: 100px;
 }
